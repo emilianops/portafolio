@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+h2 {
+    color: #007bff;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+img.cv-picture {
+    display: flex;
+    width: 200px;
+    margin: 30px auto;
+    border-radius: 50%;
+}
+
+/* Estilos de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos de sección de proyectos */
+.proyecto {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.proyecto h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Estilos del formulario de contacto */
+#form-style label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#form-style input[type="text"],
+#form-style input[type="email"],
+#form-style textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#form-style input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#redes{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+/* Estilos del footer */
+footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    color: #777;
+    font-size: 14px;
+}
